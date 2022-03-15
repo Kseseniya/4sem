@@ -11,5 +11,9 @@ int main(int argc, char const *argv[])
 	{
 		v = view::get(argv[1]);
 	}
+
+	v->mainloop();
+	delete v;	
 	return 0;
+
 }
